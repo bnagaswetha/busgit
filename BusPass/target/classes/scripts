@@ -1,0 +1,8 @@
+//Route Table
+create table routemap(routeid int primary key auto_increment,routepath varchar(100),occseats int,totalseats int,busno int,busdriver varchar(20),totalkm int)
+insert into routemap(routepath,occseats,totalseats,busno,busdriver,totalkm) values('ChennaiMIPL,Tambaram,Parnur',10,30,12345,'Ramesh',45);
+
+//Transaction Table
+create table transactions(tid int primary key auto_increment,transactiondate date,calckm int,monthlyfair int);
+
+//
