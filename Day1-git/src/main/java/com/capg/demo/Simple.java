@@ -11,6 +11,7 @@ public class Simple {
 	private static void print() {
 		System.out.println("print method");
 		System.out.println("print method11");
+		System.out.println("print method57651");
 	}
 
 }
